@@ -1,0 +1,55 @@
+.header{
+    background: #ffffff;
+}
+.content1{
+    margin-top: 0.3rem;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content2{
+    
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+  
+}
+.content2 p{
+    font-weight: 600;
+    margin:12px 5px;
+    font-size: 11px;
+}
+.pesquisar{
+    margin: auto;
+    margin-left: 90px;
+    font-size: 10px;
+    text-align: center;
+    border: 0;
+    background: #444444;
+    height: 25px;
+    width: 220px;
+    border-radius: 100px;
+}
+.pesquisar::placeholder{
+    color: #ffffff73;
+}
+.iconeInput{
+    padding: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    left: 96px; /* Ajuste a posição conforme necessário */
+    top: 20px;
+    transform: translateY(-50%);
+    width: 15px; /* Ajuste a largura conforme necessário */
+    height: 15px;
+}
+.logo{
+    margin: auto;
+ width: 107px;
+ height: 30px;
+}
