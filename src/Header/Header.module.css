@@ -2,54 +2,60 @@
     background: #ffffff;
 }
 .content1{
-    margin-top: 0.3rem;
-    align-items: center;
-    width: 100%;
+    margin:0.9rem 0rem;
+  width: 100%;
+}
+.content1p1{
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    
     margin-bottom: 10px;
 }
 .content2{
-    
     width: 100%;
     display: flex;
     justify-content: right;
-    margin-right: 10px;
-  
+    
+}
+.content2p1{
+    padding: 0.4rem;
+    display: flex;
+    margin-right: 0.7rem;
 }
 .content2 p{
     font-weight: 600;
-    margin:12px 5px;
-    font-size: 11px;
+    margin:0.5rem;
+    font-size: 1.1rem;
 }
 .pesquisar{
-    margin: auto;
-    margin-left: 90px;
-    font-size: 10px;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
     text-align: center;
-    border: 0;
+    border: 1;
     background: #444444;
-    height: 25px;
-    width: 220px;
+    height: 2.8rem;
+    width: 20rem;
     border-radius: 100px;
 }
+.logo{
+    margin: 0.5rem;
+ width: 200px;
+}
 .pesquisar::placeholder{
-    color: #ffffff73;
+    color: #f0eeee;
 }
 .iconeInput{
     padding: 0.1rem;
     background-color: #ffffff;
     border-radius: 50px;
     position: absolute;
-    left: 96px; /* Ajuste a posição conforme necessário */
-    top: 20px;
+    left: 12%; /* Ajuste a posição conforme necessário */
+    top: 7.4%;
     transform: translateY(-50%);
-    width: 15px; /* Ajuste a largura conforme necessário */
-    height: 15px;
-}
-.logo{
-    margin: auto;
- width: 107px;
- height: 30px;
+    width: 1.4rem; /* Ajuste a largura conforme necessário */
+    height: 1.4rem;
 }

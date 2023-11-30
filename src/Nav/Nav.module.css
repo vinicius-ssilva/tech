@@ -28,7 +28,11 @@
     transition: 9ms ease;
 }
 .iconeMenu{
+<<<<<<< Updated upstream
     background: #ffffff7d;
+=======
+    background: transparent;
+>>>>>>> Stashed changes
     padding: 0.2rem;
     width: 2.55rem;
     height: 2.5rem;

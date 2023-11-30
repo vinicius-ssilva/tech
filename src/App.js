@@ -5,9 +5,14 @@ import Nav from './Nav/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
+    <div>
+            <Header/>
+
+ <div className="App">
+      <Nav/>
     </div>
+    </div>
+   
   );
 }
 
