@@ -14,37 +14,60 @@
     
     margin-bottom: 10px;
 }
+
 .content2{
     width: 100%;
     display: flex;
     justify-content: right;
+
     
 }
 .content2p1{
-    padding: 0.4rem;
     display: flex;
-    margin-right: 0.7rem;
+    margin-right: 0.1rem;   
+}
+.content2p1 p{
+    padding:auto 0.1em;
+    cursor: pointer;
+}
+.content2p1 p:hover{
+  color: rgb(69, 69, 69);
 }
 .content2 p{
-    font-weight: 600;
-    margin:0.5rem;
+    font-weight: 500;
+    margin:1rem 0.4rem;
     font-size: 1.1rem;
+    transition: all 100ms;
+}
+@media (max-width: 700px) {
+    .content2 p{
+   
+        font-weight: 500;
+        margin:0.5rem 0.4rem;
+        font-size: 0.790rem;
+        transition: all 100ms;
+     
+    }
+}
+.logo{
+    display: flex;
+    margin:1.4rem auto;
+ width: 200px;
 }
 .pesquisar{
-    margin: 0.5rem;
+    display: flex;
+    border: 0;
+    margin:0.5rem auto;
     font-size: 1.2rem;
     font-weight: 900;
     text-align: center;
-    border: 1;
     background: #444444;
-    height: 2.8rem;
-    width: 20rem;
-    border-radius: 100px;
+    height: 3.2rem;
+    width: 25rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
 }
-.logo{
-    margin: 0.5rem;
- width: 200px;
-}
+
 .pesquisar::placeholder{
     color: #f0eeee;
 }

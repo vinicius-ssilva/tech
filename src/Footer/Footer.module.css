@@ -1,0 +1,56 @@
+.contentFooter{
+    background: #444444;
+    width: 100%;
+    height: 10rem;
+    box-shadow: 1px 1px 5px black;
+}
+.quadro{
+
+    float: left;
+    width: 11rem;
+    height: 7rem;
+    padding: 0.2em;
+}
+.titulo{
+    font-size: 0.93rem;
+    text-align: center;
+    margin:0.9rem auto;
+    padding: 0.5rem;
+    color: #bababa;
+}
+@media (max-width: 700px) {
+    .titulo{
+        font-size: 0.9rem;
+    text-align: center;
+    margin:0.9rem auto;
+    padding: 0.5rem 0.1rem;
+    color: #bababa;
+
+    }
+}
+.contentQuadros{
+    display: flex;
+    justify-content: center;
+}
+
+.contentImgP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentImgP img{
+    width: 1rem;
+    height: 1rem;
+    margin: auto 0.2rem;
+}
+.contentImgP p{
+    color: #ffffff;
+    margin: 0.2rem 0.1rem;
+    
+    transition: all 1s ;
+}
+.contentImgP p:hover{
+    color: #939393;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
