@@ -1,6 +1,6 @@
 import styles from "./Header.module.css"
 import logo from "../imagens/Logotipo.png"
-import iconeL from "../imagens/lupa1.png"
+import iconeL from "../icones/iconeSearch.svg"
 
 export default function Header(){
     return(
@@ -10,6 +10,7 @@ export default function Header(){
             <div className={styles.content1}>
 
                 <div className={styles.content1p1}>
+                    <img className={styles.lupa} src={iconeL}></img>
                 <input  placeholder="Pesquizar" className={styles.pesquisar} type="text"></input>
 
                 </div>

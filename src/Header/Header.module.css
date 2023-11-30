@@ -54,12 +54,34 @@
     margin:1.4rem auto;
  width: 200px;
 }
+.content1p1{
+    display: flex;
+    
+    justify-content: center;
+    align-items:center ;
+}
+.lupa{
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 1.3em;
+    background: #080808c0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.194);
+    margin-right: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.lupa:hover{
+    background: #080808dd;
+
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.801);
+  
+}
 .pesquisar{
     display: flex;
     border: 0;
-    margin:0.5rem auto;
+    color: #f0eeee;
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
     background: #444444;
     height: 3.2rem;

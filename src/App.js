@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header/Header';
 import Nav from './Nav/Nav';
 import Footer from './Footer/Footer';
+import Main from './PgEmalta/Main';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
             <Header/>
  <div className="App">
       <Nav/>
+      <Main/>
     </div>
     <Footer/>
     </div>
