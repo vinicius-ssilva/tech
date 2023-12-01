@@ -8,8 +8,13 @@ export default function Main(){
     return(
         <div className={styles.contentMain}>
             <section className={styles.sessao1}>
-                ,,,,,,,,,,,,,,,,,,,,,
+                <article className={styles.contentCentralizador}>
+s
+                </article>
             </section>
+
+
+
             <section className={styles.sessao2}>
                 Seção 2
             </section>
