@@ -7,8 +7,11 @@ import img2 from "../PgEmalta/img/novaLinhaGalaxyS23-Fe(1).jpeg"
 export default function Main(){
     return(
         <div className={styles.contentMain}>
-            <section>
+            <section className={styles.sessao1}>
                 ,,,,,,,,,,,,,,,,,,,,,
+            </section>
+            <section className={styles.sessao2}>
+                Seção 2
             </section>
  
 

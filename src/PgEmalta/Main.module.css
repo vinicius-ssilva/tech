@@ -1,6 +1,9 @@
 .contentMain{
-flex: 1;
     width: 100%-4.5rem;
-   background-color: aqua;
-   height: 5rem;
+ 
+}
+.sessao1{
+    background: #363636;
+}.sessao2{
+    background: #ffffff;
 }
