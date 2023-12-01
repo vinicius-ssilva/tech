@@ -1,7 +1,6 @@
 .contentMain{
-    float: left;
-    flex: 1;
-    width: 88.88%;
-    height: 10rem;
-    background: yellow;
+flex: 1;
+    width: 100%-4.5rem;
+   background-color: aqua;
+   height: 5rem;
 }
