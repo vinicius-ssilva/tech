@@ -1,8 +1,10 @@
 .contentNav{
     float: left;
     width: 4.5rem;
+    height: 100vh;
     padding-top: 1rem;
     background: #464646;
+
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.419);
 }
 .contentNavMenu{
